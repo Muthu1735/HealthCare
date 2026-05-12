@@ -37,7 +37,11 @@ public class LandingPage {
         new LandingPage(2, 6, 4, "C"),
 //        new LandingPage(10, 5, 4, "C"),
         new LandingPage(4, 5, 4, "C"),
+//<<<<<<< HEAD
 		new LandingPage(4, 5, 4, "D"));
+//=======
+        new LandingPage(4, 5, 4, "E"));  
+//>>>>>>> refs/heads/NewBranch-1
         
 		
 		
