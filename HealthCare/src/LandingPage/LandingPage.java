@@ -21,7 +21,6 @@ public class LandingPage {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		List<LandingPage> al = Arrays.asList(new LandingPage(10, 5, 4, "A"),
         new LandingPage(2, 5, 4, "A"),
@@ -39,7 +38,6 @@ public class LandingPage {
         new LandingPage(10, 5, 4, "C"),
         new LandingPage(4, 5, 4, "C"));
         
-//        al.stream().collect(Collectors.summarizingInt(n->n));
 		
 		
 		Map<String, Integer> extract = al.stream()
@@ -49,7 +47,7 @@ public class LandingPage {
                 ));
  
         extract.forEach((empname, Integer)
-                -> System.out.println(empname + " => " + Integer)
+                -> System.out.println(empname + " = > " + Integer)
         );
         
         
