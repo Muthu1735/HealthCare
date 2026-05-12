@@ -25,7 +25,7 @@ public class LandingPage {
 		List<LandingPage> al = Arrays.asList(new LandingPage(10, 5, 4, "A"),
         new LandingPage(2, 5, 4, "A"),
         new LandingPage(7, 5, 4, "A"),
-        new LandingPage(10, 5, 4, "A"),
+//        new LandingPage(10, 5, 4, "A"),
         new LandingPage(6, 9, 4, "A"),
         new LandingPage(9, 5, 4, "A"),
         new LandingPage(10, 4, 4, "A"),
